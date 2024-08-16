@@ -1,0 +1,113 @@
+html{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+#home {
+  overflow-x: hidden;
+}
+
+
+.container1 {
+  background-color: #abd1c6;
+  font-style: bold;
+  padding: 2rem;
+  text-decoration: none;
+  color: black;
+}
+ .jumbotron {
+  padding-top: 6rem;
+  background-color: #abd1c6;
+  font-size: 2rem;
+}
+section img {
+  width: 200px;
+}
+#piket {
+  background-color: #abd1c6;
+}
+.project {
+  background-color: #abd1c6;
+}
+
+#abot {
+  padding: 3rem;
+}
+#project {
+  padding: rem;
+}
+#yossha_my {
+  padding-top: 3rem;
+}
+
+section.qute {
+  background: url(img/foto\ 1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  padding: 260px;
+  color: white ;
+  filter: brightness(80%);
+}
+
+.icone {
+  size: 100rem;
+  padding: 4px;
+  background-color: black;
+  color: white;
+}
+
+.xxx .sosial i:hover {
+  color: #304ffe;
+}
+
+section#projecttt div img:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.sosial i{
+  color: black;
+}
+.sosial i:hover {
+  transition: 0.5s;
+  color: #E1306C;
+}
+
+.icon i {
+  padding-top: 50px;
+  color: white;
+}
+
+.icon1 i:hover {
+  color: blue;
+}
+.icon2 i:hover {
+  color: #E1306C;
+}
+
+footer i {
+  padding-top: 20px;
+}
+
+footer h3 {
+  font-size: 90px;
+}
+
+@media (max-width: 739px) {
+  section img {
+    width: 150px;
+  }
+  footer h3 {
+    font-size: 50px;
+  }
+  section.qute {
+    background: none;
+    padding: 60px; 
+    color: black;
+  }
+}

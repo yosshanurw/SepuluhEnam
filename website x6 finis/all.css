@@ -1,0 +1,85 @@
+body {
+    background-color:  #abd1c6;
+}
+.putih{ 
+    background-color: #004643;
+}
+
+.row {
+    padding: 4rem;
+    
+}
+.card {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.navnav{
+    color: #ffff;
+    font-size: 30px;
+}
+.navnav i:hover {
+    color: #1da1f2;
+    font-size: 30px;
+    transition: 1;
+}
+.icon i {
+    padding-top: 50px;
+    color: white;
+  }
+  
+  .icon1 i:hover {
+    color: rgb(0, 38, 255);
+  }
+  .icon2 i:hover {
+    color: #E1306C;
+  }
+  footer i {
+    padding-top: 20px;
+  }
+  
+  footer h3 {
+    font-size: 90px;
+  }
+  #member {
+    background-color: #627254;
+    color: white;
+  }
+  header img{
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+    overflow-x: hidden;
+  }
+  .member h3 {
+    color: black;
+    top: 50%;
+  }
+  .centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-40%, -40%);
+    color: white;
+    font-size: 80px;
+    font-style: oblique; 
+  }
+  section .jumbotron {
+    padding: 2rem;
+  }
+  section img {
+    width: 125px;
+  }
+
+  /* hp */
+  @media (max-width: 739px) {
+    .centered {
+      font-size: 30px;
+     position: absolute;
+     top: 8%;
+     left: 50%;
+    }
+    footer h3 {
+      font-size: 50px;
+    }
+  } 
